@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns = "http://www.w3.org/ns/widgets"  xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0" android-versionCode="39" ios-CFBundleVersion="1.9.0" windows-packageVersion="1.9.0" version="1.9.0" id = "com.redcoats.rchub"  >
+<widget xmlns = "http://www.w3.org/ns/widgets"  xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0" android-versionCode="39" ios-CFBundleVersion="2.0.0" windows-packageVersion="2.0.0" version="2.0.0" id = "com.redcoats.rchub"  >
 <name>RC Hub</name>
 <description>Redcoats time sheet application for the building managers</description>
-<author>Larry Li</author>
+<author>redcoats</author>
 <content src="index.html"/>
 <access origin="*"/>
 <allow-intent href="http://*/*"/>

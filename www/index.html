@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="css/framework7.ios.min.css">
     <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://boetalitewebui.azurewebsites.net/css/site.css">
+    <link rel="stylesheet" href="https://boetrchubmobile.azurewebsites.net/css/site.css">
     
     <script src="js/framework7.min.js"></script>
-    <script src="https://boetalitewebui.azurewebsites.net/js/index.js"></script>
+    <script src="https://boetrchubmobile.azurewebsites.net/js/index.js"></script>
     
     
     <script src="cordova.js"></script>
@@ -38,11 +38,11 @@
            $.ajax({
                 type: "get",
                 dataType: "json",
-                url: "https://boetalitewebui.azurewebsites.net/Home/GetHomeHtml",
+                url: "https://boetrchubmobile.azurewebsites.net/Home/GetHomeHtml",
                 success: function (data) {
                     if (data.OK) {
                         $('body').html(data.Message);
-                        startApp("https://boetalitewebui.azurewebsites.net","redcoats");
+                        startApp("https://boetrchubmobile.azurewebsites.net","redcoats");
                     } else {
                         alert(data.Message);
                     }
